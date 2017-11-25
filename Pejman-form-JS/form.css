@@ -1,0 +1,22 @@
+input.form_input {
+	display: flex;
+	width: 600px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+textarea.form_input {
+	font-size: 12px;
+	display: flex;
+	width: 600px;
+	height: 100px;
+	margin-left: 20px;
+}
+
+div.div_form {
+	width: 50%;
+}
+
+select#selectType {
+	margin-left: 20px;
+}
