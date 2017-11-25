@@ -1,4 +1,4 @@
-var templates = {
+{
 	"footer": "^^I'm&#32;a&#32;human&#32;volunteer&#32;content&#32;transcriber&#32;for&#32;Reddit!&#32;[If&#32;&#32;you'd&#32;like&#32;more&#32;information&#32;on&#32;what&#32;we&#32;do&#32;and&#32;why&#32;we&#32;do&#32;it,&#32;click&#32;here!](https://www.reddit.com/r/TranscribersOfReddit/wiki/index)",
 	"types": [
 		{
@@ -11,7 +11,7 @@ var templates = {
 						"type": "textarea",
 						"prefix": "\n\n[*",
 						"suffix": "*]",
-						"placeholder": "Description of Image",
+						"placeholder": "Description of Image"
 					}
 				]
 			}
@@ -79,27 +79,27 @@ var templates = {
 						"description": "Karma Points:",
 						"type": "input",
 						"prefix": ", ",
-						"placeholder": "Only numbers",
+						"placeholder": "Only numbers"
 					},
 					{
 						"description": "Submitted by (\\/u/Redditor):",
 						"type": "input",
 						"prefix": " points, submitted by **",
 						"suffix": "**",
-						"value": "\\/u/Redditor",
+						"value": "\\/u/Redditor"
 					},
 					{
 						"description": "Subreddit (\\/r/Subreddit):",
 						"type": "input",
 						"prefix": " to **",
 						"suffix": "**",
-						"value": "\\/r/Subreddit",
+						"value": "\\/r/Subreddit"
 					},
 					{
 						"description": "Gilded x#:",
 						"type": "input",
 						"prefix": ", Gilded ",
-						"placeholder": "Number of gold received, if none then type 0",
+						"placeholder": "Number of gold received, if none then type 0"
 					},
 					{
 						"description": "Description of image:",
@@ -112,7 +112,7 @@ var templates = {
 						"description": "Description of the text:",
 						"type": "textarea",
 						"prefix": "\n\n",
-						"placeholder": "Text.",
+						"placeholder": "Text."
 					}
 					
 				]
@@ -147,7 +147,7 @@ var templates = {
 						"type": "input",
 						"prefix": "\n\n>> **User Reports: ",
 						"suffix": "**",
-						"placeholder": "Only numbers" //TODO: Restrict input to only numbers
+						"placeholder": "Only numbers"
 					},
 					{
 						"description": "Report Reason:",
