@@ -6,12 +6,17 @@ def claim_tor_post(post):
         return 'err'
 
 
-def done_tor_post(post):
+def done_tor_post(post, r):
     if post.link_flair_text == 'In Progress':
         might_be_by_me = False
         for comment in post.comments:
-            if comment.author == 'jabbathehutt1234':
+            if comment.author == r.config.username:
                 might_be_by_me = True
 
         if might_be_by_me:
             post.reply('done')
+            return 'yay'
+        else:
+            return "err"
+
+    return 'err'

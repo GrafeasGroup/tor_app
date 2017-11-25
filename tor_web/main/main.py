@@ -1,9 +1,11 @@
 import cherrypy
 import praw
 
-from tor_web.helper.helper import submission_from_link, get_ocr_from_tor_post
-from tor_web.manage_tor_post import claim_tor_post, done_tor_post
-from tor_web.new_tor_posts import latest_uf_tor
+from tor_web.main.helper.helper import submission_from_link, \
+    get_ocr_from_tor_post
+from tor_web.main.manage_tor_post import claim_tor_post, done_tor_post
+from tor_web.main.new_tor_posts import latest_uf_tor
+
 
 r = praw.Reddit('main', user_agent="TorWeb - Finds ToR posts and claims them "
                                    "and stuff. Hi dev!")
@@ -45,8 +47,8 @@ class TorWeb(object):
         post_id = cherrypy.request.json['postId']
 
         submission = r.submission(post_id)
-
-        return done_tor_post(submission)
+        cherrypy.log('what')
+        return done_tor_post(submission, r)
 
 
 if __name__ == '__main__':
