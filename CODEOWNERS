@@ -4,8 +4,9 @@
 # Unless a later match takes precedence, @global-owner1 and @global-owner2
 # will be requested for review when someone opens a pull request.
 
-*                @perryprog
+*                                           @perryprog
 
-/tor_web/        @perryprog
-/design_mockups/ @laurajohman
-/Pejman-form-JS/ @PejmanPoh
+/tor_web/                                   @perryprog
+/design_mockups/                            @laurajohman
+/design_mockups/perry_example_design.sketch @perryprog
+/Pejman-form-JS/                            @PejmanPoh
