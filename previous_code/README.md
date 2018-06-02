@@ -1,0 +1,1 @@
+This folder exists to hold onto the work of @thepageman and @perryprog; while we decided to not use their work directly, it's moved here in the event that it is needed as reference material as we continue on.
