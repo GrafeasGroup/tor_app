@@ -6,7 +6,7 @@ with open('README.md', 'r') as f:
 
 if __name__ == '__main__':
     setup(
-        name='gupas',
+        name='tor_app',
         version=__version__,
         description="A web app to aid in transcription of internet content.",
         long_description=long_desc,
